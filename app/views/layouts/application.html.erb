@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nam</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+<h1>Listing users</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>		
+		</tr>	
+	</thead>
+</table>
+
+</body>
+</html>
